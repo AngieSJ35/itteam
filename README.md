@@ -1,27 +1,8 @@
 # ItteamFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+Para correr el servidor es necesario acceder a la ruta Prueba ITTEAM\itteamprueba\src\main\java\com\itteam\prueba y correr el archivo ItteampruebaApplication.
 
-## Development server
+Una vez levantado el servidor es necesario levantar el servidor de Angular del front desde el otro repositorio con las indicación que encontraran en el readme de itteamF.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Con los dos servidores corriendo es necesario ingresar al puerto http://localhost:4200/ donde encontrarán la app front con Angular y podrán crear nuevas ofertas, eliminarlas, modificarlas y verlas.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
