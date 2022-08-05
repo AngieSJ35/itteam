@@ -1,0 +1,9 @@
+package com.itteam.prueba.entity;
+
+public class Ofert {
+
+	private String offerse_id;
+	private Float price_value;
+	private String description;
+	private String name;
+}

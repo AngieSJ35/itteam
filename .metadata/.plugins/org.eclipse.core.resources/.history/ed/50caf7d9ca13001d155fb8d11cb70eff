@@ -1,0 +1,46 @@
+package com.itteam.prueba.service;
+
+import com.itteam.prueba.entity.Offerse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+@Transactional
+public class OfferseService {
+
+	@Autowired
+    com.itteam.prueba.repository.OfferseRepository OfferseRepository;
+
+    public List<Offerse> list(){
+        return OfferseRepository.findAll();
+    }
+
+    public Optional<Offerse> getOne(int id){
+        return OfferseRepository.findById(id);
+    }
+
+    public Optional<Offerse> getByName(String name){
+        return OfferseRepository.findByName(name);
+    }
+
+    public void  save(Offerse offerse){
+        offerseRepository.save(offerse);
+    }
+
+    public void delete(int id){
+        productoRepository.deleteById(id);
+    }
+
+    public boolean existsById(int id){
+        return productoRepository.existsById(id);
+    }
+
+    public boolean existsByNombre(String nombre){
+        return productoRepository.existsByNombre(nombre);
+    }
+}

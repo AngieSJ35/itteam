@@ -1,0 +1,16 @@
+1659597916890	Rename package 'com.itteam.pruebadto'
+1659598000917	Delete element
+1659598011949	Delete element
+1659598015358	Delete element
+1659598154333	Rename type 'Producto'
+1659598242222	Delete element
+1659598320952	Rename type 'ProductService'
+1659598331893	Rename type 'ProductRepository'
+1659598336887	Rename type 'Product'
+1659598346803	Rename type 'ProductDto'
+1659598354838	Rename type 'ProductController'
+1659598868397	Rename type 'OfertController'
+1659598879773	Rename type 'OfertDto'
+1659598887884	Rename type 'Ofert'
+1659598894928	Rename type 'OfertRepository'
+1659598907395	Rename type 'OfertService'

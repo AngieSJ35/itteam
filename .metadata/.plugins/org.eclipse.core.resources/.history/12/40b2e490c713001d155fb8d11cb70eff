@@ -1,0 +1,5 @@
+package com.itteam.prueba.entity;
+
+public class Product {
+
+}

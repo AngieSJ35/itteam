@@ -1,0 +1,19 @@
+package com.itteam.prueba.dto;
+
+public class OfferseDto {
+
+	private float price_value;
+	private String description;
+	private String name;
+	public OfferseDto(float price_value, String description, String name) {
+		super();
+		this.price_value = price_value;
+		this.description = description;
+		this.name = name;
+	}
+	public OfferseDto() {
+		super();
+	}
+	
+	
+}

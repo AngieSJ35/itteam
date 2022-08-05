@@ -1,0 +1,5 @@
+package com.itteam.prueba.repository;
+
+public class OfertRepository {
+
+}

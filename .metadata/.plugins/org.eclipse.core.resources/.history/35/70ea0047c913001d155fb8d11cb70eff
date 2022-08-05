@@ -1,0 +1,18 @@
+package com.itteam.prueba.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+
+public class Offerse {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int offerse_id;
+	private float price_value;
+	private String description;
+	private String name;
+
+}

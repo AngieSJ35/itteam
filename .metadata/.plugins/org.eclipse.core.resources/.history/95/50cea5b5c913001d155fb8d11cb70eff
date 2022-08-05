@@ -1,0 +1,5 @@
+package com.itteam.prueba.repository;
+
+public interface OfferseRepository extends JpaRepository<Offerse, Integer>{
+
+}

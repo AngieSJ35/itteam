@@ -1,0 +1,22 @@
+package com.itteam.prueba.dto;
+
+import org.springframework.util.MultiValueMap;
+
+public class Message implements MultiValueMap<String, String> {
+	private String message;
+
+	public Message(String message) {
+		super();
+		this.message = message;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	
+}
