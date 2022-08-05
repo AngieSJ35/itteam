@@ -1,4 +1,4 @@
-# ItteamFront
+# ItteamPruebaAngie
 
 Para correr el servidor es necesario acceder a la ruta Prueba ITTEAM\itteamprueba\src\main\java\com\itteam\prueba y correr el archivo ItteampruebaApplication.
 
